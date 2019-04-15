@@ -4,6 +4,6 @@ import io.vertx.core.json.JsonObject;
 
 public interface DaoFactory {
 
-	public Dao<JsonObject> getJsonObjectDao(String collection);
+	Dao<JsonObject> getJsonObjectDao(String collection);
 
 }
